@@ -6,6 +6,7 @@ toggleBtn.addEventListener("click", () => {
 
 const articlesContainer = document.querySelector(".articles");
 
+// first way
 const articlesData = articles
   .map((object) => {
     const { title, date, length, snippet } = object;
